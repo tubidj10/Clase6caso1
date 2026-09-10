@@ -1,0 +1,19 @@
+{
+  "scenario": "03",
+  "summary": "Propuesta de reposición basada en datos del escenario 03. Se requieren revisiones humanas donde faltan datos. Acciones respetan bulto y entradas.",
+  "proposals": [
+    {
+      "sku": "RES-04",
+      "quantity": null,
+      "action": "manual_review",
+      "reason": "Faltan días de plazo de reposición; no se puede calcular sin ese dato."
+    },
+    {
+      "sku": "LAP-02",
+      "quantity": 0,
+      "action": "no_order",
+      "reason": "Demanda diaria 0; stock suficiente; no se necesita pedido; respetado múltiplo de bulto."
+    }
+  ],
+  "requires_human_approval": true
+}
